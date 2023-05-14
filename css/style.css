@@ -1,0 +1,48 @@
+/*Imporando Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;500;600;700&display=swap');
+/*Resentando regras do Css*/
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+/*Estilizando Section*/
+section{
+    width: 100%;
+    height: 400px;
+    padding: 40px 4%;
+    color: white;
+
+
+
+    background-position: certer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+section p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    /*Iniciando Parallax*/
+section:nth-of-type(1){
+    background-image: url("..//img/imagem1.jpg");
+}
+section:nth-of-type(2){
+    background-image: url("..//img/imagem2.jpg");
+}
+section:nth-of-type(3){
+    background-image: url("..//img/imagem3.jpg");
+}
+section:nth-of-type(4){
+    background-image: url("..//img/imagem4.jpg");
+}
+section:nth-of-type(5){
+    background-image: url("..//img/imagem5.jpg");
+}
